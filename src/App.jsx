@@ -33,10 +33,10 @@ function App() {
               Hi! my name is Evan Rafa Radya Alifian. I am a student at
               Trunojoyo Madura University. I have a basic experince in web
               development, especially in frontend development. Currently, i
-              build website with
-              <span className="badge">HTML5</span>,
-              <span className="badge">JavaScript</span>,
-              <span className="badge">TailwindCSS</span>, and
+              build website with{(" ")}
+              <span className="badge">HTML5</span>,{(" ")}
+              <span className="badge">JavaScript</span>,{(" ")}
+              <span className="badge">TailwindCSS</span>, and{(" ")}
               <span className="badge">React.js</span>.
             </p>
           </section>
