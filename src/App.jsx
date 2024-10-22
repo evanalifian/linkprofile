@@ -1,6 +1,7 @@
 import "./preflight.css";
 import "./style.css";
 import "./utilities.css";
+import evan from '/img/evan.png'
 import data from "../data.json";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <header className="profile container">
           <figure className="profile_header">
             <img
-              src="./public/img/evan.png"
+              src={evan}
               alt="Evan Alifian"
               width="112"
               loading="lazy"
