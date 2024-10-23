@@ -22,7 +22,7 @@ export default function MainContent() {
         </figure>
       </header>
       <section aria-describedby="about_me">
-        <h2 id="about" className="text-xl font-bold">
+        <h2 id="about" className="text-2xl font-bold mb-2">
           <a href="#about">About</a>
         </h2>
         <p className="text-justify">
@@ -33,7 +33,7 @@ export default function MainContent() {
         </p>
       </section>
       <section aria-describedby="curriculum_vitae">
-        <h2 id="curriculum_vitae" className="text-xl font-bold">
+        <h2 id="curriculum_vitae" className="text-2xl font-bold mb-2">
           <a href="#curriculum_vitae">Curriculum vitae</a>
         </h2>
         <a
@@ -45,7 +45,7 @@ export default function MainContent() {
         </a>
       </section>
       <section aria-describedby="skills">
-        <h2 id="skills" className="text-xl font-bold">
+        <h2 id="skills" className="text-2xl font-bold mb-2">
           <a href="#skills">Skills</a>
         </h2>
         <div className="flex flex-wrap gap-4">
@@ -66,7 +66,7 @@ export default function MainContent() {
         </div>
       </section>
       <section aria-describedby="social_media">
-        <h2 id="social_media" className="text-xl font-bold">
+        <h2 id="social_media" className="text-2xl font-bold mb-2">
           <a href="#social_media">Social Media</a>
         </h2>
         <div className="space-y-4">
