@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply dark:bg-black
+  }
+
   h1,h2,h3,h4,h5,h6 {
-    @apply mb-1
+    @apply mb-1 dark:text-white
   }
   p {
-    @apply text-gray-700
+    @apply text-gray-700 dark:text-gray-200
   }
 }

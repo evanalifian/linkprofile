@@ -7,7 +7,7 @@ export default function MainContent() {
     <article className="space-y-12">
       <header>
         <figure className="flex items-center gap-x-4">
-          <div className="w-max border border-zinc-300 p-1 rounded-lg">
+          <div className="w-max border border-zinc-300 p-1 rounded-lg dark:border-zinc-700">
             <img
               src={evanImg}
               alt="Evan Rafa Radya Alifian"
@@ -39,7 +39,7 @@ export default function MainContent() {
         <a
           href="/cv.pdf"
           target="_blank"
-          className="inline-flex gap-x-2 text-gray-700 font-medium transition-colors hover:text-gray-900"
+          className="inline-flex gap-x-2 text-gray-700 font-medium transition-colors hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100"
         >
           <FileUser /> See my CV
         </a>
@@ -52,7 +52,7 @@ export default function MainContent() {
           {data.skills.map((skill) => (
             <figure
               key={skill.name}
-              className="flex items-center gap-x-4 border border-zinc-300 bg-zinc-200 rounded-lg p-2"
+              className="flex items-center gap-x-4 border border-zinc-300 bg-zinc-100 rounded-lg p-2"
             >
               <img
                 src={skill.icon}
@@ -77,7 +77,7 @@ export default function MainContent() {
               key={social.url}
               className="block"
             >
-              <figure className="flex items-center justify-center gap-4 border border-zinc-300 rounded-lg p-2 transition-transform hover:scale-105">
+              <figure className="flex items-center justify-center gap-4 border border-zinc-300 bg-zinc-100 rounded-lg p-2 transition-transform hover:scale-105 dark:border-zinc-700 dark:bg-zinc-100">
                 <img
                   src={social.icon}
                   alt={social.name}
@@ -86,7 +86,7 @@ export default function MainContent() {
                 />
                 <figcaption className="flex flex-col">
                   <span>{social.name}</span>
-                  <span className="text-lg font-semibold">
+                  <span className="text-lg text-zinc-700 font-semibold">
                     @{social.username}
                   </span>
                 </figcaption>
